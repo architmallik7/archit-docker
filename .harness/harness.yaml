@@ -211,11 +211,11 @@ pipeline:
                       # disable cgo
                       export CGO_ENABLED=0
 
-                      go build -o release/windows/amd64/architmallik-docker.exe ./cmd/architmallik-docker
-                      go build -o release/windows/amd64/architmallik-ecr.exe ./cmd/architmallik-ecr
-                      go build -o release/windows/amd64/architmallik-gcr.exe ./cmd/architmallik-gcr
-                      go build -o release/windows/amd64/architmallik-acr.exe ./cmd/architmallik-acr
-                      go build -o release/windows/amd64/architmallik-gar.exe ./cmd/architmallik-gar
+                      go build -o release/windows/amd64/drone-docker.exe ./cmd/drone-docker
+                      go build -o release/windows/amd64/drone-ecr.exe ./cmd/drone-ecr
+                      go build -o release/windows/amd64/drone-gcr.exe ./cmd/drone-gcr
+                      go build -o release/windows/amd64/drone-acr.exe ./cmd/drone-acr
+                      go build -o release/windows/amd64/drone-gar.exe ./cmd/drone-gar
                     envVariables:
                       CGO_ENABLED: "0"
               - step:
