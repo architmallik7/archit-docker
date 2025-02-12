@@ -38,7 +38,7 @@ go build -v -a -tags netgo -o release/linux/amd64/drone-gar ./cmd/drone-gar
 
 ## Docker
 
-Build the Docker images with the following commands:
+Build the Docker images with the following :
 
 ```console
 docker build \
